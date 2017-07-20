@@ -3,7 +3,7 @@ spring:
         name: bucketz-registry
     cloud:
         config:
-            uri: http://127.0.0.1:9000/bucketz-registry
+            uri: http://127.0.0.1:9000/bucketz-config
 server:
     port: 9001
     context-path: /bucketz-registry
